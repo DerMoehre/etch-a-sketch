@@ -17,3 +17,17 @@ let createGrid = () => {
 }
 
 createGrid();
+
+let boxLayout = document.querySelectorAll('.box');
+
+boxLayout.forEach((box) => {
+    box.addEventListener('mouseleave', () => {
+        box.setAttribute('style', 'background: black');
+    });
+});
+
+
+
+
+
+
