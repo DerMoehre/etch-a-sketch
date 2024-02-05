@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main_container {
+    /* background-color: black; */
+    height: 100vh;
+/*     padding: 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sketch_area {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    height: 960px;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.box {
+    display: flex;
+    flex: 1;
+    border: 1px solid black;
+}
+
+
