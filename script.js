@@ -25,9 +25,3 @@ boxLayout.forEach((box) => {
         box.setAttribute('style', 'background: black');
     });
 });
-
-
-
-
-
-
