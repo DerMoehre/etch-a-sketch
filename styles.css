@@ -1,10 +1,13 @@
 body {
     margin: 0;
     box-sizing: border-box;
+    background-color: rgb(62, 20, 20);
 }
 
 h1 {
     text-align: center;
+    color:antiquewhite;
+    font-size: 48px;
 }
 
 button {
@@ -28,7 +31,7 @@ button {
     width: 960px;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: beige;
     height: 960px;
 }
 
@@ -40,11 +43,8 @@ button {
 .box {
     display: flex;
     flex: 1;
-    border: 1px solid black;
+    opacity: 0.1;
 }
 
-.box:hover {
-    background-color: black;
-}
 
 
